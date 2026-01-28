@@ -1,7 +1,7 @@
 import time
 import functools
 
-
+#1.28 visit it 
 # 1. 定义一个计时器装饰器
 def timer_decorator(func):
     @functools.wraps(func)
