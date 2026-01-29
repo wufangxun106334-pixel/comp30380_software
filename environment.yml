@@ -1,0 +1,8 @@
+name: comp47350py312
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - ipykernel
+  - ipympl
+prefix: /opt/anaconda3/envs/comp47350py312
