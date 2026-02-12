@@ -1,0 +1,6 @@
+config.py
+.DS_Store
+__pycache__/
+*.ipynb_checkpoints/
+Mysql.ipynb
+*.docx
