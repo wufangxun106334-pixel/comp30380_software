@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Home Page{% endblock %}
+
+{% block content %}
+<h2>Welcome to the Home Page!</h2>
+<p>Hello, {{ name }}!</p>
+{% endblock %}
+
+{% from "macros.html" import render_item %}
+
+<h1>Items</h1>
+{% for item in items %}
+{{ render_item(item) }}
+{% endfor %}
